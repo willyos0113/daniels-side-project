@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 8px;
+}
+.card {
+  /* border: 1px red solid; */
+  box-shadow: 5px -5px 5px rgba(0, 0, 0, 0.1),
+    /* 向右向上陰影 */ 0 2px 5px rgba(0, 0, 0, 0.1); /* 向下陰影（較小） */
+  width: 220px;
+  border-radius: 2px;
+}
+.cardName {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.cardImage {
+  /* border: 1px blue solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 220px;
+}
+
+.cardImage img {
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+}
