@@ -6,6 +6,7 @@
 }
 body {
   margin: 8px;
+  font-family: Consolas, monospace;
 }
 .card {
   /* border: 1px red solid; */
